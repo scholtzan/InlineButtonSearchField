@@ -10,6 +10,7 @@
 		95EF2BA32135B8B400A27463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BA22135B8B400A27463 /* AppDelegate.swift */; };
 		95EF2BA52135B8B400A27463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BA42135B8B400A27463 /* Assets.xcassets */; };
 		95EF2BA82135B8B400A27463 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BA62135B8B400A27463 /* MainMenu.xib */; };
+		95EF2BB92135FA1700A27463 /* InlineButtonSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		95EF2BA72135B8B400A27463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		95EF2BA92135B8B400A27463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95EF2BAA2135B8B400A27463 /* InlineButtonSearchField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InlineButtonSearchField.entitlements; sourceTree = "<group>"; };
+		95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineButtonSearchField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,8 @@
 		95EF2B962135B8B400A27463 = {
 			isa = PBXGroup;
 			children = (
-				95EF2BA12135B8B400A27463 /* InlineButtonSearchField */,
+				95EF2BB72135F9EC00A27463 /* InlineButtonSearchField */,
+				95EF2BA12135B8B400A27463 /* InlineButtonSearchFieldExample */,
 				95EF2BA02135B8B400A27463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +51,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95EF2BA12135B8B400A27463 /* InlineButtonSearchField */ = {
+		95EF2BA12135B8B400A27463 /* InlineButtonSearchFieldExample */ = {
 			isa = PBXGroup;
 			children = (
 				95EF2BA22135B8B400A27463 /* AppDelegate.swift */,
@@ -56,6 +59,14 @@
 				95EF2BA62135B8B400A27463 /* MainMenu.xib */,
 				95EF2BA92135B8B400A27463 /* Info.plist */,
 				95EF2BAA2135B8B400A27463 /* InlineButtonSearchField.entitlements */,
+			);
+			path = InlineButtonSearchFieldExample;
+			sourceTree = "<group>";
+		};
+		95EF2BB72135F9EC00A27463 /* InlineButtonSearchField */ = {
+			isa = PBXGroup;
+			children = (
+				95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */,
 			);
 			path = InlineButtonSearchField;
 			sourceTree = "<group>";
@@ -132,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EF2BA32135B8B400A27463 /* AppDelegate.swift in Sources */,
+				95EF2BB92135FA1700A27463 /* InlineButtonSearchField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
