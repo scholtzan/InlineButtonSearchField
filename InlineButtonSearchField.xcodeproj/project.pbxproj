@@ -7,24 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95EF2BA32135B8B400A27463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BA22135B8B400A27463 /* AppDelegate.swift */; };
-		95EF2BA52135B8B400A27463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BA42135B8B400A27463 /* Assets.xcassets */; };
-		95EF2BA82135B8B400A27463 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BA62135B8B400A27463 /* MainMenu.xib */; };
-		95EF2BB92135FA1700A27463 /* InlineButtonSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */; };
+		95EF2BD92136079C00A27463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BD82136079C00A27463 /* AppDelegate.swift */; };
+		95EF2BDB2136079C00A27463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BDA2136079C00A27463 /* Assets.xcassets */; };
+		95EF2BE42136088800A27463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BD82136079C00A27463 /* AppDelegate.swift */; };
+		95EF2BE62136438B00A27463 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BE52136438B00A27463 /* MainViewController.swift */; };
+		95EF2BEA2136489300A27463 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EF2BE92136489300A27463 /* Storyboard.storyboard */; };
+		95EF2BEF21364EC800A27463 /* InlineButtonSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EF2BEE21364EC800A27463 /* InlineButtonSearchField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95EF2B9F2135B8B400A27463 /* InlineButtonSearchField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InlineButtonSearchField.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		95EF2BA22135B8B400A27463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95EF2BA42135B8B400A27463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		95EF2BA72135B8B400A27463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		95EF2BA92135B8B400A27463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		95EF2BAA2135B8B400A27463 /* InlineButtonSearchField.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InlineButtonSearchField.entitlements; sourceTree = "<group>"; };
-		95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineButtonSearchField.swift; sourceTree = "<group>"; };
+		95EF2BD62136079C00A27463 /* InlineButtonSearchFieldExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InlineButtonSearchFieldExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EF2BD82136079C00A27463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95EF2BDA2136079C00A27463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95EF2BDF2136079C00A27463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EF2BE02136079C00A27463 /* InlineButtonSearchFieldExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InlineButtonSearchFieldExample.entitlements; sourceTree = "<group>"; };
+		95EF2BE52136438B00A27463 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		95EF2BE92136489300A27463 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		95EF2BEE21364EC800A27463 /* InlineButtonSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineButtonSearchField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		95EF2B9C2135B8B400A27463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EF2BD32136079C00A27463 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,8 +48,7 @@
 		95EF2B962135B8B400A27463 = {
 			isa = PBXGroup;
 			children = (
-				95EF2BB72135F9EC00A27463 /* InlineButtonSearchField */,
-				95EF2BA12135B8B400A27463 /* InlineButtonSearchFieldExample */,
+				95EF2BD72136079C00A27463 /* InlineButtonSearchFieldExample */,
 				95EF2BA02135B8B400A27463 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,28 +57,23 @@
 			isa = PBXGroup;
 			children = (
 				95EF2B9F2135B8B400A27463 /* InlineButtonSearchField.app */,
+				95EF2BD62136079C00A27463 /* InlineButtonSearchFieldExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		95EF2BA12135B8B400A27463 /* InlineButtonSearchFieldExample */ = {
+		95EF2BD72136079C00A27463 /* InlineButtonSearchFieldExample */ = {
 			isa = PBXGroup;
 			children = (
-				95EF2BA22135B8B400A27463 /* AppDelegate.swift */,
-				95EF2BA42135B8B400A27463 /* Assets.xcassets */,
-				95EF2BA62135B8B400A27463 /* MainMenu.xib */,
-				95EF2BA92135B8B400A27463 /* Info.plist */,
-				95EF2BAA2135B8B400A27463 /* InlineButtonSearchField.entitlements */,
+				95EF2BD82136079C00A27463 /* AppDelegate.swift */,
+				95EF2BDA2136079C00A27463 /* Assets.xcassets */,
+				95EF2BDF2136079C00A27463 /* Info.plist */,
+				95EF2BE02136079C00A27463 /* InlineButtonSearchFieldExample.entitlements */,
+				95EF2BE52136438B00A27463 /* MainViewController.swift */,
+				95EF2BE92136489300A27463 /* Storyboard.storyboard */,
+				95EF2BEE21364EC800A27463 /* InlineButtonSearchField.swift */,
 			);
 			path = InlineButtonSearchFieldExample;
-			sourceTree = "<group>";
-		};
-		95EF2BB72135F9EC00A27463 /* InlineButtonSearchField */ = {
-			isa = PBXGroup;
-			children = (
-				95EF2BB82135FA1700A27463 /* InlineButtonSearchField.swift */,
-			);
-			path = InlineButtonSearchField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +96,23 @@
 			productReference = 95EF2B9F2135B8B400A27463 /* InlineButtonSearchField.app */;
 			productType = "com.apple.product-type.application";
 		};
+		95EF2BD52136079C00A27463 /* InlineButtonSearchFieldExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95EF2BE12136079D00A27463 /* Build configuration list for PBXNativeTarget "InlineButtonSearchFieldExample" */;
+			buildPhases = (
+				95EF2BD22136079C00A27463 /* Sources */,
+				95EF2BD32136079C00A27463 /* Frameworks */,
+				95EF2BD42136079C00A27463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InlineButtonSearchFieldExample;
+			productName = InlineButtonSearchFieldExample;
+			productReference = 95EF2BD62136079C00A27463 /* InlineButtonSearchFieldExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +124,10 @@
 				ORGANIZATIONNAME = scholtzan;
 				TargetAttributes = {
 					95EF2B9E2135B8B400A27463 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					95EF2BD52136079C00A27463 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -121,6 +147,7 @@
 			projectRoot = "";
 			targets = (
 				95EF2B9E2135B8B400A27463 /* InlineButtonSearchField */,
+				95EF2BD52136079C00A27463 /* InlineButtonSearchFieldExample */,
 			);
 		};
 /* End PBXProject section */
@@ -130,8 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EF2BA52135B8B400A27463 /* Assets.xcassets in Resources */,
-				95EF2BA82135B8B400A27463 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EF2BD42136079C00A27463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EF2BDB2136079C00A27463 /* Assets.xcassets in Resources */,
+				95EF2BEA2136489300A27463 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +176,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EF2BA32135B8B400A27463 /* AppDelegate.swift in Sources */,
-				95EF2BB92135FA1700A27463 /* InlineButtonSearchField.swift in Sources */,
+				95EF2BE42136088800A27463 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95EF2BD22136079C00A27463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95EF2BEF21364EC800A27463 /* InlineButtonSearchField.swift in Sources */,
+				95EF2BD92136079C00A27463 /* AppDelegate.swift in Sources */,
+				95EF2BE62136438B00A27463 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		95EF2BA62135B8B400A27463 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				95EF2BA72135B8B400A27463 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		95EF2BAB2135B8B400A27463 /* Debug */ = {
@@ -271,7 +303,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = InlineButtonSearchField/InlineButtonSearchField.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = InlineButtonSearchField/Info.plist;
@@ -286,12 +317,41 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = InlineButtonSearchField/InlineButtonSearchField.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = InlineButtonSearchField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.scholtzan.InlineButtonSearchField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		95EF2BE22136079D00A27463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InlineButtonSearchFieldExample/InlineButtonSearchFieldExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InlineButtonSearchFieldExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scholtzan.InlineButtonSearchFieldExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		95EF2BE32136079D00A27463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = InlineButtonSearchFieldExample/InlineButtonSearchFieldExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InlineButtonSearchFieldExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.scholtzan.InlineButtonSearchFieldExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -314,6 +374,15 @@
 			buildConfigurations = (
 				95EF2BAE2135B8B400A27463 /* Debug */,
 				95EF2BAF2135B8B400A27463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95EF2BE12136079D00A27463 /* Build configuration list for PBXNativeTarget "InlineButtonSearchFieldExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95EF2BE22136079D00A27463 /* Debug */,
+				95EF2BE32136079D00A27463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="1hE-em-0vo">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="EdD-Cy-tqB">
+            <objects>
+                <viewController id="1hE-em-0vo" customClass="MainViewController" customModule="InlineButtonSearchFieldExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" wantsLayer="YES" id="DjS-68-j93">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="62"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <searchField wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" textCompletion="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKb-PX-Cte" customClass="InlineButtonSearchField" customModule="InlineButtonSearchFieldExample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="20" width="410" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" id="Qfv-yH-MCt">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <connections>
+                                        <action selector="searchFieldAction:" target="1hE-em-0vo" id="NSf-Hl-Acc"/>
+                                    </connections>
+                                </searchFieldCell>
+                            </searchField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="searchField" destination="uKb-PX-Cte" id="UQi-kH-zDF"/>
+                    </connections>
+                </viewController>
+                <customObject id="TGb-3b-Mpd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144" y="-248"/>
+        </scene>
+    </scenes>
+</document>
