@@ -6,4 +6,4 @@ This is a proof-of-concept implementation of a `NSSearchField` with inline butto
 
 Buttons can be dynamically added to the search field and could be used to set search options such as regular expressions or case sensitivity. 
 
-__This prototype is inspired from the work I did on implementing multiple search fields for [xi-mac](https://github.com/google/xi-mac).__
+_This prototype is inspired from the work I did on implementing multiple search fields for [xi-mac](https://github.com/google/xi-mac)._
