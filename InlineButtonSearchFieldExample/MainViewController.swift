@@ -13,12 +13,25 @@ import Swift
 class MainViewController: NSViewController {
     @IBOutlet var searchField: InlineButtonSearchField!
 
-    override func viewDidLoad() {
+    @objc func setRegex() {
+        print("set regex")
+    }
 
+    @objc func setCaseSensitivity() {
+        print("set case sensitivity")
+    }
+
+    override func viewDidLoad() {
+        let regexButton = searchField.addInlineButton(title: ".*")
+        regexButton.action = #selector(setRegex)
+        regexButton.target = self
+        let caseSensitivityButton = searchField.addInlineButton(title: "Aa")
+        caseSensitivityButton.action = #selector(setCaseSensitivity)
+        caseSensitivityButton.target = self
     }
 
     @IBAction func searchFieldAction(_ sender: NSSearchFieldCell) {
-        print("action")
+        searchField.resultCount = 5
     }
 
 }
